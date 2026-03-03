@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# display user home
+
+echo "Home for the current user is: $HOME"
+
+echo "I have \$1 in my pocket"

@@ -1,0 +1,14 @@
+BEGIN {
+print "The latest list of users and shells"
+print " UserName \t HomePath"
+print "-------- \t ---------"
+FS=":"
+}
+
+{
+    print  $1 " \t " $6
+}
+
+END {
+print "The end"
+}
